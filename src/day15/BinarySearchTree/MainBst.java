@@ -1,8 +1,12 @@
 package day15.BinarySearchTree;
 
 /*
+ * UC1-Ability to create a BST by adding 56 and then adding 30 & 70
+ * -------------------------------------------------------------
  * UC2-Ability to create the binary tree shown in the figure
- * they given a figure in UC2
+ * -------------------------------------------------------
+ * UC3-Ability to search 63 in the Binary Tree
+ * ------------------------------------------
  */
 public class MainBst {
 
@@ -12,15 +16,17 @@ public class MainBst {
 	 * @param args - Default Java param (Not used)
 	 */
 	public static void main(String[] args) {
-
+		
 		/**
+		 * ----------
 		 * Procedure:-
-		 * 
+		 * ----------
 		 * 1. Creating object to access the function of function class 
 		 * 2. Adding the sub-nodes of Binary Tree 
 		 * 3. Printing the elements
 		 * 4. to create the binary tree shown in the figure
 		 * 4. Check if all are added with using size method in Binary Tree and print it
+		 * 5.Implement Search method and recursively search left or right nodes to find 63
 		 */
 
 		/*
@@ -55,5 +61,21 @@ public class MainBst {
 		 */
 		bst.print(root);
 
+		/**
+		 * if condition is true our particular node is present the it prints true or
+		 * false type because this is boolean method
+		 */
+		System.out.println(bst.nodePresent(root, 63));
+
+		/**
+		 * if else statement is used if condition is true then print 63 is present is
+		 * binary tree if condition false then print 63 is not present in binary tree.
+		 */
+
+		if (root != null)
+			System.out.println("\nElement 63 is present in the binary tree");
+		else
+			System.out.println("\nElement 63 is not present in the binary tree");
 	}
 }
+

@@ -21,7 +21,7 @@ public class MainBst {
 		 * ----------
 		 * Procedure:-
 		 * ----------
-		 * 1. Creating object to access the function of function class 
+		 * 1. Creating object MainBst class 
 		 * 2. Adding the sub-nodes of Binary Tree 
 		 * 3. Printing the elements
 		 * 4. to create the binary tree shown in the figure
